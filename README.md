@@ -1,2 +1,2 @@
 # Andste Website
-Placeholder
+A portfolio website made using Mantine.

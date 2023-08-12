@@ -87,4 +87,23 @@ export default createStyles((theme) => ({
   buttonSizeOverlay: {
     width: rem(110),
   },
+  angle: {
+    position: 'relative',
+    zIndex: 1,
+    '&::before': {
+      background: 'inherit',
+      content: '""',
+      display: 'block',
+      height: '50%',
+      left: 0,
+      position: 'absolute',
+      right: 0,
+      zIndex: -1,
+      backfaceVisibility: 'hidden',
+      top: "-7vh",
+      transform: 'skewY(5deg)',
+      transformOrigin: '100% 0',
+      boxShadow: '0px -2px 2px rgba(0, 0, 0, 0.6)',
+    },
+  },
 }));

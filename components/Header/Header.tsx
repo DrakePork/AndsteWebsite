@@ -1,7 +1,6 @@
 import {Title, Text, Grid, Button, Center, Box } from '@mantine/core';
 import useStyles from './Header.styles';
 import {Contact} from "../Contact/Contact";
-
 export function Header() {
   const { classes } = useStyles();
 
@@ -15,11 +14,11 @@ export function Header() {
         </Title>
       </Center>
       <Text color="dimmed" align="center" size="lg" sx={{ maxWidth: 580 }} mx="auto" mt="xl" mb={50}>
-        Designer, Developer, Musician
+        Student, Developer & Musician
       </Text>
       <Center>
         <Grid className={classes.grid} grow gutter="xl">
-          <Grid.Col span={6}>
+{/*          <Grid.Col span={6}>
             <Button radius="md" size="xl" fullWidth variant="outline" color="grape"
             onClick={() => {
               const about = document.getElementById('about');
@@ -27,7 +26,7 @@ export function Header() {
             }}>
               Who am I?
             </Button>
-          </Grid.Col>
+          </Grid.Col>*/}
           <Grid.Col span={6}>
             <Button radius="md" size="xl" fullWidth variant="outline" color="orange"
             onClick={() => {
