@@ -42,7 +42,7 @@ const projects: Project[] = [
         image: 'github.png',
         title: ['TaskBot'],
         color: ['#d68835'],
-        description: 'TaskBot is a bot for Discord that is used to keep track of who\'s turn it is to to a task.',
+        description: 'TaskBot is a bot for Discord that is used to keep track of who\'s turn it is to do a task.',
         type: ProjectType.DiscordBot,
     },
 ];
