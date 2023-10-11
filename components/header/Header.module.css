@@ -1,0 +1,25 @@
+.title {
+    font-size: 125px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    text-align: center;
+
+    @media (max-width: $mantine-breakpoint-md) {
+        width: 90%;
+        font-size: 75px;
+    }
+}
+
+.grid {
+    @media (max-width: $mantine-breakpoint-md) {
+    width: 90%;
+    }
+}
+
+.headerBox {
+    padding-top: 25vh;
+    @media (max-width: $mantine-breakpoint-md) {
+        padding-top: 5vh;
+        margin-bottom: 2vh;
+    }
+}

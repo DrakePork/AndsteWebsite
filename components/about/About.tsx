@@ -1,11 +1,10 @@
 import {Title, Text, Container, Divider, Center, Box} from '@mantine/core';
-import useStyles from './About.styles';
+import classes from './About.module.css';
 
 export function About() {
-    const {classes} = useStyles();
     return (
-        <Box sx={{minHeight: "100vh"}} className={classes.angle} bg="#212529" pb={50}>
-            <Title className={classes.title} align="center" mb={50}>
+        <Box style={{minHeight: "100vh"}} className={classes.angle} bg="#212529" pb={50}>
+            <Title className={classes.title}>
                 <Text id="about" inherit variant="gradient" gradient={{from: '#da77f2', to: '#9c36b5'}}
                       component="span">
                     About

@@ -1,6 +1,9 @@
-import {Title, Text, Grid, Container, Center, Divider, Box} from '@mantine/core';
-import useStyles from './Projects.styles';
-import {ProjectCard, ProjectType, Project} from './ProjectCard';
+'use client';
+import {Title, Text, Grid, Container, Center, Divider, Box, GridCol, Button, rem} from '@mantine/core';
+import classes from './Projects.module.css';
+import {ProjectCard, Project, ProjectType} from './ProjectCard';
+import {IconExternalLink} from "@tabler/icons-react";
+import {red} from "next/dist/lib/picocolors";
 
 const projects: Project[] = [
     {
@@ -42,16 +45,15 @@ const projects: Project[] = [
         image: 'github.png',
         title: ['TaskBot'],
         color: ['#d68835'],
-        description: 'TaskBot is a bot for Discord that is used to keep track of who\' turn it is to to a task.',
+        description: 'TaskBot is a bot for Discord that is used to keep track of who\'s turn it is to do a task.',
         type: ProjectType.DiscordBot,
     },
 ];
 
 export function Projects() {
-    const {classes} = useStyles();
     return (
-        <Box sx={{minHeight: "100vh"}} className={classes.angle} bg="#212529" pb={50}>
-            <Title id="projects" className={classes.title} align="center" mb={50}>
+        <Box style={{minHeight: "100vh"}} className={classes.angle} bg="#212529" pb={50}>
+            <Title id="projects" className={classes.title} ta="center" mb={50}>
                 <Text inherit variant="gradient" gradient={{from: '#ffc078', to: '#e8590c'}} component="span">
                     Projects
                 </Text>

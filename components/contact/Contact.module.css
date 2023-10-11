@@ -1,0 +1,7 @@
+.contactButton {
+    transition: background-color ease 0.05s, transform ease 0.1s;
+}
+
+.contactButton:hover {
+    transform: translateY(-5px);
+}
