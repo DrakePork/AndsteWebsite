@@ -1,5 +1,3 @@
-
-
 .projectCard:hover > .projectImage {
     transform: scale(1.25);
 }

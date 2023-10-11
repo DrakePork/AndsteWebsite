@@ -1,9 +1,7 @@
 'use client';
-import {Title, Text, Grid, Container, Center, Divider, Box, GridCol, Button, rem} from '@mantine/core';
+import {Title, Text, Grid, Container, Center, Divider, Box} from '@mantine/core';
 import classes from './Projects.module.css';
 import {ProjectCard, Project, ProjectType} from './ProjectCard';
-import {IconExternalLink} from "@tabler/icons-react";
-import {red} from "next/dist/lib/picocolors";
 
 const projects: Project[] = [
     {

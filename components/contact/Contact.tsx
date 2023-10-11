@@ -24,7 +24,7 @@ export function Contact({size, iconVariant}: ContactSettings) {
             </HoverCard>
             <HoverCard shadow="md" arrowPosition="center" withArrow={true}>
                 <HoverCardTarget>
-                    <ActionIcon className={classes.contactButton} title="My Linkedin" color="blue" variant={iconVariant} size={size} component="a" target="_blank" href="https://www.linkedin.com/in/andreas-polden-steinsland-0191941b5/">
+                    <ActionIcon className={classes.contactButton} title="My Linkedin" color="blue" variant={iconVariant} size={size} component="a" target="_blank" href="https://www.linkedin.com/in/andreaspolden">
                         <IconBrandLinkedin size="3.5rem"/>
                     </ActionIcon>
                 </HoverCardTarget>
