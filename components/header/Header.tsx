@@ -17,7 +17,7 @@ export function Header() {
           </Text>
           <Center>
               <Grid className={classes.grid} grow gutter="xl">
-                  <GridCol span={6}>
+                  <GridCol m={1} span={6}>
                       <Button component={Link} href="#projects" radius="md" size="xl" fullWidth variant="outline" color="orange">
                           Projects
                       </Button>
