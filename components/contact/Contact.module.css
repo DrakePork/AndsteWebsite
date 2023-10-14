@@ -5,3 +5,7 @@
 .contactButton:hover {
     transform: translateY(-5px);
 }
+
+.contactButton:active {
+    transform: translateY(-2.5px);
+}
