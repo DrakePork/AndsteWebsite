@@ -30,7 +30,7 @@ export function Contact({size, iconVariant}: ContactSettings) {
                 </HoverCardTarget>
                 <HoverCardDropdown>
                     <Text size="sm">
-                        andste.no/linkedin
+                        linkedin.com/in/andreaspolden
                     </Text>
                 </HoverCardDropdown>
             </HoverCard>
